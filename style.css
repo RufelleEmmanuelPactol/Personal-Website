@@ -438,8 +438,3 @@ meter::-webkit-meter-optimum-value {
     object-fit: cover;
   }
 
-  .baseline{
-    display: flex;
-    height: 100vh;
-    
-  }
