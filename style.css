@@ -320,8 +320,7 @@ meter::-webkit-meter-optimum-value {
 .psfoot{
     margin-top: 5em;
     background-color: rgba(255, 255, 255, 0.2);
-    width: vh;
-    height: 60px;
+    width: 100vh;
     display: flex;
     justify-content: center;
     bottom: 0;
@@ -378,8 +377,8 @@ meter::-webkit-meter-optimum-value {
     align-items: center;
     position: relative;
     top: 15em;
-    height: vh;
-    width: dw;
+    height: 60vh;
+    width: 100vw;
     flex-wrap: wrap;
 }
 
