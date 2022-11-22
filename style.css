@@ -72,11 +72,15 @@ a{
 }
 
 nav{
+    width: 100vh;
     margin-top: -1em;
+    display: flex;
+    justify-content: right;
 }
 
 a:hover{
     background-color:gray;
+    transition: all 0.5s ease 0s;
 
 }
 
@@ -163,6 +167,7 @@ a:hover{
   .wrapper{
     display: flex;
     justify-content: center;
+    margin-bottom: -15em;
   }
 
   #subscr{
@@ -176,18 +181,7 @@ a:hover{
     margin-top: 15em;
     position: relative;
   }
-  .portrait{
-    position: relative;
-    right: -5em;
-   
-  }
-
-  .portrait img{
-    clear:both;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-  }
+ 
 
   .about_text{
     text-align: right;
@@ -306,9 +300,6 @@ a:hover{
     font-size: 1.5em;
 }
 
-.blue {
-    
-}
 
 .meters{
     margin-left: 2em;
@@ -335,6 +326,17 @@ meter::-webkit-meter-optimum-value {
     justify-content: center;
     bottom: 0;
     width: 100%;
+}
+
+
+.flexer{
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+}
+
+.flexer a{
+    margin: 0.2em;
 }
 
 .psfoot p{
@@ -396,3 +398,43 @@ meter::-webkit-meter-optimum-value {
     height: 10em;
     width: 0.5em;
 }
+
+.sflex{
+    position: relative;
+    display: flex;
+    width: 30vh;
+    justify-content: right;
+    color: white;
+    text-align: right;
+    width: 70vw;
+    margin: 5em;
+    
+}
+
+.sflex h3{
+    font-size: 2em;
+
+}
+
+
+.topclass{
+    margin-top: 5em;
+    position: relative;
+    width: 500em;
+    margin-left: -5em;
+}
+
+.portrait{
+    margin-top: 6em;
+    position: relative;
+
+   
+  }
+
+  .portrait img{
+    flex: 1;
+    clear:both;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
